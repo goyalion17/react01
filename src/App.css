@@ -1,0 +1,44 @@
+*{
+  box-sizing: border-box;
+}
+.app-wrapper {
+  display: grid;
+  max-width: 1200px;
+  
+  grid-template-areas:
+    "h h"
+    "n c";
+  grid-template-rows: 60px 1fr;
+  grid-template-columns: 2fr 10fr;
+  grid-gap: 10px;
+}
+
+.header {
+  grid-area: h;
+  background-color: green;
+}
+.header img {
+  width: 70px;
+}
+.nav {
+  grid-area: n;
+  background-color: rgba(0, 128, 0, 0.836);
+}
+
+.content {
+  grid-area: c;
+  background-color: rgba(113, 115, 241, 0.973);
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: rgba(0, 0, 0, 0.541);
+}
