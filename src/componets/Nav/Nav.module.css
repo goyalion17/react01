@@ -1,7 +1,7 @@
 .nav {
   grid-area: n;
   background-color: rgba(0, 128, 0, 0.836);
-}
+  }
 
 ul {
   list-style: none;
@@ -10,4 +10,8 @@ ul {
 .item {
   color: white;
   text-decoration: none;
+}
+
+.active {
+  color: rgb(221, 247, 77);
 }
