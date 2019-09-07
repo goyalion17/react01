@@ -1,4 +1,5 @@
 import React from "react";
+import "./Profile.css";
 
 const Profile = () => {
   return (
@@ -9,10 +10,14 @@ const Profile = () => {
       <div>
         <img src="https://photostocky.ru/wp-content/uploads/2019/02/krutye-foto-i-kartinki-v-vk-14.jpg"></img>
       </div>
-      <div>My posts</div>
-      <div>New post</div>
-      <div>post1</div>
-      <div>post2</div>
+      <div>
+        My posts
+        <div className="posts">
+          New post
+          <div className="item">post1</div>
+          <div className="item">post2</div>
+        </div>
+      </div>
     </div>
   );
 };
