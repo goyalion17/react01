@@ -5,13 +5,15 @@
 
 ul {
   list-style: none;
+  padding: 0;
 }
 
 .item {
   color: white;
   text-decoration: none;
+  margin-left: 30px;
 }
 
-.active {
+.activeLink {
   color: rgb(221, 247, 77);
 }
