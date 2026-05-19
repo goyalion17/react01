@@ -5,16 +5,16 @@ The original 2019 codebase (CRA + React 16 + react-router v5) has been fully mig
 
 ## Stack
 
-| Layer              | Technology                  |
-| ------------------ | --------------------------- |
-| Build / Dev-server | Vite 6                      |
-| UI                 | React 19                    |
-| Routing            | react-router-dom 7          |
-| Styling            | CSS Modules                 |
-| Lint               | ESLint 9 (flat config)      |
-| Format             | Prettier 3                  |
-| Tests              | Vitest 3 + Testing Library  |
-| Test environment   | jsdom                       |
+| Layer              | Technology                 |
+| ------------------ | -------------------------- |
+| Build / Dev-server | Vite 6                     |
+| UI                 | React 19                   |
+| Routing            | react-router-dom 7         |
+| Styling            | CSS Modules                |
+| Lint               | ESLint 9 (flat config)     |
+| Format             | Prettier 3                 |
+| Tests              | Vitest 3 + Testing Library |
+| Test environment   | jsdom                      |
 
 **Security:** `npm audit` → **0 vulnerabilities** (down from 224 in the original CRA stack, 19 of them critical).
 
@@ -32,19 +32,19 @@ npm run dev          # http://localhost:3000
 
 ## Scripts
 
-| Command                | Purpose                                    |
-| ---------------------- | ------------------------------------------ |
-| `npm run dev`          | Vite dev server with HMR on port 3000      |
-| `npm run build`        | Production build into `dist/`              |
-| `npm run preview`      | Preview the production build locally       |
-| `npm run lint`         | Run ESLint                                 |
-| `npm run lint:fix`     | Auto-fix ESLint issues                     |
-| `npm run format`       | Format files with Prettier                 |
-| `npm run format:check` | Check formatting (for CI)                  |
-| `npm run test`         | Vitest in watch mode                       |
-| `npm run test:run`     | Vitest single run (for CI)                 |
-| `npm run test:ui`      | Vitest UI                                  |
-| `npm run coverage`     | Coverage report                            |
+| Command                | Purpose                               |
+| ---------------------- | ------------------------------------- |
+| `npm run dev`          | Vite dev server with HMR on port 3000 |
+| `npm run build`        | Production build into `dist/`         |
+| `npm run preview`      | Preview the production build locally  |
+| `npm run lint`         | Run ESLint                            |
+| `npm run lint:fix`     | Auto-fix ESLint issues                |
+| `npm run format`       | Format files with Prettier            |
+| `npm run format:check` | Check formatting (for CI)             |
+| `npm run test`         | Vitest in watch mode                  |
+| `npm run test:run`     | Vitest single run (for CI)            |
+| `npm run test:ui`      | Vitest UI                             |
+| `npm run coverage`     | Coverage report                       |
 
 ## Project structure
 
